@@ -1,0 +1,117 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    align-self: center;
+}
+
+#body_1, #header_1, #main_1, #main_1, #footer_1{
+    width: 1200px;
+}
+
+
+
+header section{
+    width: 200px;
+    height: 150px;
+    padding: 20px 20px;
+    /* background-color: cadetblue; */
+    float: left;
+    /* auto->te ubique e el ventro de mi pantalla */
+}
+
+
+section li1{/*configurando dentro del li*/
+    display: inline-block;/*pone en una sola linea*/
+    width: 1200px;
+    height: 12px;
+    padding: 0%;
+    padding: 10px 10px;
+    /* espacio iquierdo y derecho */
+    text-align: center;/*centra ltect*/
+    color: white;
+    /* position: relative; */
+    /*se posiciona de acuerdo al elemnto padre 
+    es este aso es el nav , otro es : position absolute*/
+    background-color:  aqua;
+
+}
+
+#caja1{/*configurando dentro del li*/
+    display: inline-block;/*pone en una sola linea*/
+    width: 1200px;
+    height: 15px;
+    padding: 0%;
+    padding: 10px 10px;
+    /* espacio iquierdo y derecho */
+    text-align: center;/*centra ltect*/
+    background-color:  aquamarine;
+
+}
+
+#caja2{
+    display: inline-block;/*pone en una sola linea*/
+    width: 740px;
+    height: 35px;
+    position: relative;
+    text-align: center;
+    /*centra ltect*/
+
+
+    background-color: gray;
+    text-align:left;
+    padding:  1px 240px;/*espacio iquierdo y derecho*/
+    color: black;
+    
+}
+
+#t{
+    width: 250px;
+}
+
+
+
+#boton{
+    width: 100px;
+    padding: 0% 20px;
+    position: absolute;
+    
+    
+}
+
+section li{
+    display: inline-block;
+}
+
+#caja3{
+    background-color: blue;
+    width: 1200px;
+    height: 70px;
+    margin: auto;    
+    padding: 0%;
+
+}
+
+
+li a{
+
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    position: relative;
+    position: relative;
+    text-align: center;
+    floa
+
+}
+
+li a:hover{
+    background-color: teal;
+
+}
+.r{
+    text-align: right;
+    /* width: 100px; */
+    margin: auto;
+    padding: 10px 200px;
+}
+
